@@ -1,12 +1,12 @@
-# 🖥️ Digital Twin Lighting Study – Office Environment
+# 🖥️ Real-Time Digital Twin Office – Lighting & Material Study (Omniverse + OpenUSD)
 
 ---
 
 ## 🧠 Project Overview
 
-This project demonstrates the creation of a **real-time digital twin environment** using NVIDIA Omniverse and OpenUSD, with a strong emphasis on **lighting, material realism, and scene composition**.
+This project demonstrates the creation of a **real-time digital twin office environment** using NVIDIA Omniverse and OpenUSD, with a focus on **physically-inspired lighting, material realism, and cinematic scene composition**.
 
-The scene represents a modern office workspace (my own), designed to explore how **practical lighting setups** (lamps, monitors, and daylight) influence realism and visual storytelling in a digital twin context.
+The goal was to replicate real-world lighting behavior using practical sources (lamp, monitors, and daylight) while maintaining performance within a real-time rendering pipeline.
 
 ---
 
@@ -15,6 +15,7 @@ The scene represents a modern office workspace (my own), designed to explore how
   <img src="media/digital_twin_and_lighting.gif" width="900"/>
 </p>
 
+*Real-time lighting study demonstrating practical light sources, material response, and cinematic composition in Omniverse.*
 ---
 
 ## 📸 Highlights
@@ -104,6 +105,19 @@ A scene view highlighting the wall-mounted display and secondary room elements, 
 
 ---
 
+## 🧩 Challenges & Solutions
+
+**Instanced Monitor Materials**
+- Challenge: Unable to modify emissive materials due to instancing constraints
+- Solution: Introduced SphereLight to simulate screen glow while preserving instancing integrity
+
+**Window Lighting Realism**
+- Challenge: RectLight produced hard edges and unrealistic falloff
+- Solution: Combined scaled RectLight with DiscLight to simulate natural daylight gradient
+
+**Lighting Balance**
+- Challenge: Overpowering warm lamp vs flat environment lighting
+- Solution: Balanced warm practical light with cool fill sources to achieve cinematic contrast
 ## 🚀 Why This Matters
 
 This project demonstrates key digital twin engineering skills:
