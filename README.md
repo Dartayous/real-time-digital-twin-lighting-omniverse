@@ -1,8 +1,8 @@
-# 🖥️ Real-Time Digital Twin Office – Lighting & Material Study (Omniverse + OpenUSD)
+# Real-Time Digital Twin Office – Lighting & Material Study (Omniverse + OpenUSD)
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 This project demonstrates the creation of a **real-time digital twin office environment** (my own) using NVIDIA Omniverse and OpenUSD, with a focus on **physically-inspired lighting, material realism, and cinematic scene composition**.
 
@@ -10,7 +10,7 @@ The goal was to replicate real-world lighting behavior using practical sources (
 
 ---
 
-## 🎥 Demo
+## Demo
 <p align="center">
   <img src="media/digital_twin_and_lighting.gif" width="900"/>
 </p>
@@ -18,7 +18,7 @@ The goal was to replicate real-world lighting behavior using practical sources (
 *Real-time lighting study demonstrating practical light sources, material response, and cinematic composition in Omniverse.*
 ---
 
-## 📸 Highlights
+## Highlights
 
 These selected renders show the final lighting study from multiple cinematic angles, emphasizing practical lamp lighting, cool daylight fill, reflective material response, and scene composition inside the reconstructed office environment.
 
@@ -44,7 +44,7 @@ A scene view highlighting the wall-mounted display and secondary room elements, 
 
 
 
-## 🎯 Key Objectives
+## Key Objectives
 
 - Build a structured OpenUSD scene using proper hierarchy and referencing
 - Develop physically plausible lighting using multiple light sources:
@@ -59,9 +59,9 @@ A scene view highlighting the wall-mounted display and secondary room elements, 
 
 ---
 
-## ⚙️ Technical Breakdown
+## Technical Breakdown
 
-### 🧱 Scene Construction
+### Scene Construction
 - OpenUSD stage composition with modular asset organization
 - Version-controlled USD stages (`v01 → v03`)
 - Clean separation of:
@@ -72,7 +72,7 @@ A scene view highlighting the wall-mounted display and secondary room elements, 
 
 ---
 
-### 💡 Lighting Strategy
+### Lighting Strategy
 
 | Light Source | Purpose |
 |---|---|
@@ -83,7 +83,7 @@ A scene view highlighting the wall-mounted display and secondary room elements, 
 
 ---
 
-### 🎨 Materials
+### Materials
 
 - OmniPBR-based materials for:
   - Wood (desk surface)
@@ -94,7 +94,7 @@ A scene view highlighting the wall-mounted display and secondary room elements, 
 
 ---
 
-### 🎥 Camera & Composition
+### Camera & Composition
 
 - Multiple cinematic camera angles captured
 - Depth and framing used to guide viewer focus
@@ -105,7 +105,7 @@ A scene view highlighting the wall-mounted display and secondary room elements, 
 
 ---
 
-## 🧩 Challenges & Solutions
+## Challenges & Solutions
 
 **Instanced Monitor Materials**
 - Challenge: Unable to modify emissive materials due to instancing constraints
@@ -121,7 +121,7 @@ A scene view highlighting the wall-mounted display and secondary room elements, 
 
 ---
 
-## 🚀 Why This Matters
+## Why This Matters
 
 This project demonstrates key digital twin engineering skills:
 
@@ -132,7 +132,7 @@ This project demonstrates key digital twin engineering skills:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 project_06_digital_twin_desk/
@@ -153,7 +153,7 @@ project_06_digital_twin_desk/
 
 ---
 
-## 🔮 Next Steps
+## Next Steps
 
 - Introduce sensor simulation (camera / LiDAR)
 - Expand into synthetic data generation pipeline
